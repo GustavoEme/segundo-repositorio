@@ -3,6 +3,7 @@
 }
 
 body {
+    background-image: url(assets/bg-jelly-fish-para_outras_pags.png);
     margin: 0;
 }
 
@@ -11,6 +12,7 @@ body {
     border-bottom: 3px solid aqua;
     background-color: #000;
     margin: 0px 0px 3px 0px;
+    justify-content: space-between;
     
 }
 
@@ -28,7 +30,6 @@ body {
     display: flex;
     justify-content: space-between;
     color: orange;
-    justify-content: space-around;
     
 }
 
@@ -47,11 +48,7 @@ body {
     margin: auto;
 }
 
-.banner {
-    background-image: url(public/assets/bg-jelly-fish-para_outras_pags.png);
-    background-size: cover;
-    height: 500px;
-}
+
 
 .banner .container {
     justify-content: center;
@@ -131,6 +128,8 @@ body {
     justify-content: center;
     background-color: #e5e5e5;
     border-radius: 5px;
+    height: 500px;
+    align-items: center;
     
 }
 .login.container{
@@ -147,10 +146,52 @@ body {
     font-size: 19px; 
     font-weight: 500;
     color: darkmagenta;
-    background-color: green;
-    width: 100px;
+    background-color: rgb(17, 64, 192);
+    width: 200px;
+
 }
 .compo.input{
     justify-content: space-between;
+    
 }
+.cardCadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    height: 500px;
+    align-items: center;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.cardCadastro h4{
+    font-size: 40px;
+    color: #463131;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cardCadastro span{
+    font-size: 20px;
+    margin-top: 0px;
+    align-items: column;
+}
+.cardCadastro input{
+    width: 250px;
+    margin-top: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.BotãoC{
+    width: 220px;
+    margin-top: 15px;
+    height: 70px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: lightcoral;
+    font-size: 20px;
 
+}
